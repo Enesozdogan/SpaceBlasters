@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AppController">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAIAAAQAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Network\AppController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="clientObj" />
+      <Field Name="hostObj" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SingletonClient" Collapsed="true">
+    <Position X="8.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABABAAAAACAAAAAAAAAAAAAAAABAAAAAQAAAAABAAAA=</HashCode>
+      <FileName>Assets\Scripts\Network\Client\SingletonClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SingletonHost" Collapsed="true">
+    <Position X="2.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEBAAAAACAAAAAAAAAAAAAAAABAAAAAQAAAAABAAAA=</HashCode>
+      <FileName>Assets\Scripts\Network\Host\SingletonHost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

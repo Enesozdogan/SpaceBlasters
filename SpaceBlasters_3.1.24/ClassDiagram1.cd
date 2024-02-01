@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="StateBaseNgo" Collapsed="true">
+    <Position X="5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAIAAAAAACEAAQAAAEAAIAIAIAADAAAIg=</HashCode>
+      <FileName>Assets\Scripts\Core\ForSoldier2\States\StateBaseNgo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateIdleNgo" Collapsed="true">
+    <Position X="4" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAACAAAAAAAAAAAAAAAAQAAAAAAAACAAAACAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\ForSoldier2\States\StateIdleNgo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMoveNgo" Collapsed="true">
+    <Position X="7.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQgAAACAAAAAAAAAAAAAAAAQAAAAAAAACAIAAAAQAAI=</HashCode>
+      <FileName>Assets\Scripts\Core\ForSoldier2\States\StateMoveNgo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateFallNgo" Collapsed="true">
+    <Position X="6.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAQAAAAAAAAAAEAAQAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\ForSoldier2\States\StateFallNgo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateJumpNgo" Collapsed="true">
+    <Position X="9" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAQAAAAAAAAQAEAAQAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\ForSoldier2\States\StateJumpNgo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
