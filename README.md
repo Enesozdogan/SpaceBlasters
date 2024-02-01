@@ -14,3 +14,5 @@ To maintain the player mechanics on code side, state pattern is implemented. Thi
 
 ## Shop and NetworkVariables
 To make the gameplay more engaging, at the end of each round a shop panel gets activated. On this panel, player can upgrade characters via buying items(improvements). Currently there are 3 types of items in the shop. These items are armour upgrade, weapon upgrade and jetpack upgrade. Armour item is basically an increasement on a network variable that manipulates the recevied damage data. Weapon item is on contrast as it increases the value of the damage output of the weapon. The jetpack upgrade is also a networkvariable but this networkvariable works with jetpack state. This variable is used as a fuel indicator for whether we can transition to jetpack state or to exit jetpack state on lack of fuel.   
+
+![Shop](https://github.com/Enesozdogan/SpaceBlasters/assets/72387932/b0441df0-3ddf-4d62-8c08-2c06b1c62380)
