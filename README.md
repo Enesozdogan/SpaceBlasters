@@ -16,3 +16,12 @@ To maintain the player mechanics on code side, state pattern is implemented. Thi
 To make the gameplay more engaging, at the end of each round a shop panel gets activated. On this panel, player can upgrade characters via buying items(improvements). Currently there are 3 types of items in the shop. These items are armour upgrade, weapon upgrade and jetpack upgrade. Armour item is basically an increasement on a network variable that manipulates the recevied damage data. Weapon item is on contrast as it increases the value of the damage output of the weapon. The jetpack upgrade is also a networkvariable but this networkvariable works with jetpack state. This variable is used as a fuel indicator for whether we can transition to jetpack state or to exit jetpack state on lack of fuel.   
 
 ![Shop](https://github.com/Enesozdogan/SpaceBlasters/assets/72387932/b0441df0-3ddf-4d62-8c08-2c06b1c62380)
+
+To be able to earn currency to buy the upgrades, player can either pick the coins that are randomly generated on map or they can kill other players and scavange the other player's currency. The currency is also a networkvariable defined on the currency repo class. After killing an enemy, the skull of the enemy must be collected to increase the kill count. 
+
+## Network Connection
+In SpaceBlasters there are 2 network models implemented. These are listen server and dedicated server. On listen server model, one of the clients creates a lobby allocation and a join code. With this join code other clients can join the game via lobby panel. The other method which is used in matchmaking allocates a dedicated server on unity game server hosting service when client queues for match and sends ticket to matchmaking service. To utilize the functionalities on different scenes and throught the game, the singleton pattern is implemented. Each network class(server,client,host) instantiates their own game manager and methods for client connection. 
+
+<img src="https://github.com/Enesozdogan/SpaceBlasters/assets/72387932/162e10f3-cb75-45a4-9f56-1379cad3d88f" width=500 height=300/>
+<img src="https://github.com/Enesozdogan/SpaceBlasters/assets/72387932/903174bc-8d72-42de-a926-a82270d3db80" width=500 height=300/>
+
